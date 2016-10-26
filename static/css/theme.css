@@ -4454,11 +4454,13 @@ div[class^='highlight'] pre {
     color: #333
 }
 .wy-menu-vertical li.toctree-l1.current li.toctree-l2>ul,
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3>ul {
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>ul,
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>ul {
     display: none
 }
 .wy-menu-vertical li.toctree-l1.current li.toctree-l2.current>ul,
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3.current>ul {
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3.current>ul,
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4.current>ul {
     display: block
 }
 .wy-menu-vertical li.toctree-l2.current>a {
