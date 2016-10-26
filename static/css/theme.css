@@ -4499,6 +4499,18 @@ div[class^='highlight'] pre {
 .wy-menu-vertical li.toctree-l4 {
     font-size: 0.9em
 }
+
+.wy-menu-vertical li.toctree-l4.current li.toctree-l5>a {
+    display: block;
+    background: #b3b3b3;
+    padding: 0.4045em 5.663em;
+    border-top: none;
+    border-bottom: none
+}
+.wy-menu-vertical li.toctree-l5 {
+    font-size: 0.9em
+}
+
 .wy-menu-vertical li.current ul {
     display: block
 }
